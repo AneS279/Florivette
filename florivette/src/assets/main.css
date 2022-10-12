@@ -1,0 +1,33 @@
+@import "./base.css";
+
+#app {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: #BF5E8B;
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: #C6B4D9;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+  }
+
+  #app {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
